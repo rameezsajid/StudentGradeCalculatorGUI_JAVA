@@ -1,0 +1,118 @@
+.root{
+	-fx-background-color: #addbea;
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
+
+.text-field {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.text-area {
+	-fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #1159a0;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: white;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.combo-box
+ {
+  -fx-text-fill: red;
+  -fx-min-width: 185;
+  -fx-min-height: 35;
+
+ }
+ 
+ .combo-box hover
+ {
+ 	-fx-background-color: red;
+ }
+ 
+.combo-box-popup .list-view .list-cell:hover
+ {
+   -fx-background-color: -fx-box-border, -fx-control-inner-background;
+   -fx-background-insets: 0, 1;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+   -fx-text-fill: red;
+   
+ }
+ 
+ .combo-box .cell:selected {
+    -fx-text-fill: red;
+}
+
+.combo-box-popup .list-view .list-cell
+ {
+-fx-background-color: #ececec;
+-fx-text-fill: #9a9a9a;
+-fx-font-family: Oxygen Light;
+ }
+ 
+ .menu-bar {
+    -fx-background-color: #dae3f2;
+}
+
+
+.menu-bar .label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-opacity: 0.9;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:120px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #5477af;
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #104399;
+    
+    
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #c8daf7;
+}
