@@ -7,10 +7,11 @@ import java.util.Map;
 
 public class Course {
 	
+	//Fields
 	private String courseName;
 	private Map<String, Module> modules;
 	
-	
+	//Constructor
 	public Course(String courseName) {
 		this.courseName = courseName;
 		modules = new HashMap<String, Module>();
