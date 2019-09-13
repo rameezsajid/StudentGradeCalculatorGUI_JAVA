@@ -1,2 +1,2 @@
 # StudentGradeCalculatorGUI_JAVA
-- Java
+- JavaFX
