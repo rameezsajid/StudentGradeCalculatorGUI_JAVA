@@ -9,6 +9,7 @@ import view.StudentProfileRootPane;
 
 public class Main extends Application {
 
+	//Fields
 	private StudentProfileRootPane view;
 	private StudentProfile model;
 	
